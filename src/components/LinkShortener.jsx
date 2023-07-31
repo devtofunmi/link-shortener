@@ -10,12 +10,14 @@ const LinkShortener = () => {
   };
 
   return (
-    <div>
-      <h1 className="text-center text-gray-900 text-xl">Paste the URL to be shortened</h1>
-      <div className="p-4 shadow-lg flex items-center">
+    <div className="p-4 shadow-lg">
+      <h1 className="text-center text-gray-900 text-xl">
+        Paste the URL to be shortened
+      </h1>
+      <div className="pt-3 flex items-center">
         <input
           type="text"
-          className="w-full border p-4 rounded-md"
+          className="w-full border p-4"
           placeholder="Enter your link here"
           value={originalLink}
           onChange={(e) => setOriginalLink(e.target.value)}
