@@ -7,6 +7,8 @@ const LinkShortener = () => {
   const handleShorten = () => {
     // Implement your link shortening logic here (e.g., using an API).
     // Update the shortenedLink state with the result.
+
+   
   };
 
   return (
